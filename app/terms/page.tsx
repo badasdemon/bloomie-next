@@ -45,7 +45,7 @@ export default function Terms() {
               <li>Maintain the security of your account</li>
               <li>Respect the privacy of others</li>
               <li>Not use the app for any illegal purposes</li>
-              <li>Not upload content that violates others' rights</li>
+              <li>Not upload content that violates others&apos; rights</li>
             </ul>
             
             <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">

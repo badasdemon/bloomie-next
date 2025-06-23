@@ -134,7 +134,7 @@ export default function Home() {
       <section className="px-4 py-16 md:py-24 lg:px-8 bg-white">
         <div className="max-w-4xl mx-auto text-center">
           <blockquote className="text-2xl md:text-4xl lg:text-5xl font-light text-gray-900 mb-8 italic">
-            "The first smile. The tiny toes. Don&apos;t miss a moment."
+            &quot;The first smile. The tiny toes. Don&apos;t miss a moment.&quot;
           </blockquote>
           <button className="bg-gradient-to-r from-pink-500 to-pink-600 text-white px-12 py-4 rounded-2xl font-semibold text-xl hover:from-pink-600 hover:to-pink-700 transition-all transform hover:scale-105 shadow-lg">
             Start Journaling Today
