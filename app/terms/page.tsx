@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function Terms() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-pink-50 to-white">
@@ -94,12 +96,12 @@ export default function Terms() {
           </div>
           
           <div className="mt-12 text-center">
-            <a 
+            <Link 
               href="/"
               className="inline-flex items-center text-pink-600 hover:text-pink-700 font-medium"
             >
               ← Back to Bloomie
-            </a>
+            </Link>
           </div>
         </div>
       </div>

@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import React from "react";
+import Link from 'next/link';
 
 export default function Home() {
   const [modalImg, setModalImg] = React.useState<string | null>(null);
@@ -133,7 +134,7 @@ export default function Home() {
       <section className="px-4 py-16 md:py-24 lg:px-8 bg-white">
         <div className="max-w-4xl mx-auto text-center">
           <blockquote className="text-2xl md:text-4xl lg:text-5xl font-light text-gray-900 mb-8 italic">
-            "The first smile. The tiny toes. Don't miss a moment."
+            "The first smile. The tiny toes. Don&apos;t miss a moment."
           </blockquote>
           <button className="bg-gradient-to-r from-pink-500 to-pink-600 text-white px-12 py-4 rounded-2xl font-semibold text-xl hover:from-pink-600 hover:to-pink-700 transition-all transform hover:scale-105 shadow-lg">
             Start Journaling Today
@@ -146,15 +147,15 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-gray-600 text-sm mb-4 md:mb-0">
-              © 2025 Bloomie. Made with love by <a href="https://tangerinlabs.app" target="_blank" rel="noopener noreferrer" className="underline hover:text-pink-600">Tangerin Labs.</a>
+              © 2025 Bloomie. Made with love by <Link href="https://tangerinlabs.app" target="_blank" rel="noopener noreferrer" className="underline hover:text-pink-600">Tangerin Labs.</Link>
             </div>
             <div className="flex gap-8">
-              <a href="/privacy" className="text-gray-600 hover:text-pink-600 transition-colors text-sm">
+              <Link href="/privacy" className="text-gray-600 hover:text-pink-600 transition-colors text-sm">
                 Privacy Policy
-              </a>
-              <a href="/terms" className="text-gray-600 hover:text-pink-600 transition-colors text-sm">
+              </Link>
+              <Link href="/terms" className="text-gray-600 hover:text-pink-600 transition-colors text-sm">
                 Terms of Use
-              </a>
+              </Link>
             </div>
           </div>
         </div>

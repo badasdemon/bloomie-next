@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function Privacy() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-pink-50 to-white">
@@ -47,7 +49,7 @@ export default function Privacy() {
 
             <h2>Contact Us</h2>
             <p className="mb-6">
-              For any privacy-related questions, please contact us at <a href="mailto:tangerinlabs@gmail.com" className="text-pink-600 hover:underline">tangerinlabs@gmail.com</a>
+              For any privacy-related questions, please contact us at <Link href="mailto:tangerinlabs@gmail.com" className="text-pink-600 hover:underline">tangerinlabs@gmail.com</Link>
             </p>
 
             <p className="text-sm text-gray-500 mt-8">
@@ -56,12 +58,12 @@ export default function Privacy() {
           </div>
 
           <div className="mt-12 text-center">
-            <a 
+            <Link 
               href="/"
               className="inline-flex items-center text-pink-600 hover:text-pink-700 font-medium"
             >
               ← Back to Bloomie
-            </a>
+            </Link>
           </div>
         </div>
       </div>
