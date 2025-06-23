@@ -85,7 +85,7 @@ export default function Home() {
                 Tag emotions, activities, and milestones
               </h3>
               <p className="text-gray-600 leading-relaxed">
-                Organize your memories with smart tags for emotions, activities, and important milestones in your baby's journey.
+                Organize your memories with smart tags for emotions, activities, and important milestones in your baby&apos;s journey.
               </p>
             </div>
 
@@ -100,7 +100,7 @@ export default function Home() {
                 Keep everything private, or share it with family
               </h3>
               <p className="text-gray-600 leading-relaxed">
-                Your baby's memories are precious. Keep them private or selectively share special moments with family and friends.
+                Your baby&apos;s memories are precious. Keep them private or selectively share special moments with family and friends.
               </p>
             </div>
           </div>
